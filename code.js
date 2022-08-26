@@ -83,7 +83,7 @@ var greenNotBlueColour = 0;
 // Loop over each line in the color file
 coloursFile.forEach(colours => {
 	if (colours.includes('GREEN')) {
-		//g reenArray2.push(colours)
+		// greenArray2.push(colours)
 		greenColour2++
 		if (!colours.includes('BLUE')) {
 			// greenNotBlue.push(colours)
